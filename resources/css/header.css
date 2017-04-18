@@ -1,0 +1,60 @@
+
+.header{
+    height:100px;
+    width:100%;
+    margin:0 auto;
+    position: relative;
+    border-bottom:4px solid #1688d9;
+}
+.header .logo{
+    width:113px;
+    height:39px;
+    margin-left: 24px;
+    margin-top: 29px;
+    display:inline-block;
+    background:url(../images/logo.png) no-repeat;
+}
+.company{
+    display: inline-block;
+    margin-left:15px;
+    margin-top: 21px;
+}
+.company .ch{
+    font-size: 23px;
+    color: #1688d9;
+    display: inline-block;
+    width: 100%;
+    font-weight: 900;
+}
+.company .en{
+    font-size:14px;
+    color:#69b7ef;
+    display: inline-block;
+    width:100%;
+}
+.alarmTypeList{
+    width:500px;
+    display: inline-block;
+    height:80px;
+    position: absolute;
+    right:50px;
+    line-height: 80px;
+}
+.alarmTypeList .alarmType{
+    background: url(../images/alarm.png);
+    display: inline-block;
+    width: 181px;
+    height: 98px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -3px;
+}
+.skin-purple .wrapper, .skin-purple .main-sidebar, .skin-purple .left-side{
+    background-color:#fff;
+}
+.skin-purple .main-header .logo{
+    background-color:#fff;
+}
+.main-sidebar, .left-side{
+    padding-top: 100px;
+}

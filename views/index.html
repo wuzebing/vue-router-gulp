@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Page product</title>
+</head>
+
+<body class="sidebar-mini skin-purple wysihtml5-supported" id="main">
+      <div class="wrapper">
+          <header class="main-header">
+              <my-header></my-header>
+          </header>
+      </div>
+      <aside class="main-sidebar">
+          <section class="sidebar">
+              <ul class="sidebar-menu">
+                <my-siderbar></my-siderbar>
+              </ul>
+          </section>
+      </aside>
+      <div class="content-wrapper">
+          <section class="content">
+                  <router-view></router-view>
+          </section>
+      </div>
+      <seller-comfirm></seller-comfirm>
+    <script src="../resources/js/require.js"></script>
+    <script src="../views/require.config.js"></script>
+    <script src="../views/main.js"></script>
+</body>
+
+</html>
